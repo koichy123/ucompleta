@@ -224,7 +224,7 @@ public class InsertarEstudiante extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
-        boolean t=ControlEstudiante.insertEstudiante(le); 
+        boolean t=ControlEstudiante.insertEstudianteFoto(le); 
         
         if(t){
             JOptionPane.showMessageDialog(rootPane, "Usuario Insertado Con Éxito");
